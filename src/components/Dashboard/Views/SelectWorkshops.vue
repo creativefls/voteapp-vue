@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-6" v-for="workshop in workshops">
       <div class="card">
         <div class="content">
@@ -75,7 +75,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
   .numbers {
     font-size: 1.4em !important;
   }

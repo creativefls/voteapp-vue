@@ -4,7 +4,7 @@ import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
 import DashboardMembers from 'src/components/Dashboard/Views/DashboardMembers.vue'
-import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
+import VoteCommunities from 'src/components/Dashboard/Views/VoteCommunities.vue'
 import SelectWorkshops from 'src/components/Dashboard/Views/SelectWorkshops.vue'
 import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
@@ -31,9 +31,9 @@ const routes = [
         component: SelectWorkshops
       },
       {
-        path: 'stats',
-        name: 'stats',
-        component: UserProfile
+        path: 'communities/vote',
+        name: 'Vote Komunitas',
+        component: VoteCommunities
       },
       {
         path: 'icons',

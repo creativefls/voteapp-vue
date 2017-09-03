@@ -16,7 +16,7 @@ const SidebarStore = {
     {
       name: 'Voting Komunitas',
       icon: 'ti-thumb-up',
-      path: '/members/stats'
+      path: '/members/communities/vote'
     },
     {
       name: 'Informasi',
