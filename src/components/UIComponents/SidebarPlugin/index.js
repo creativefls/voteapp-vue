@@ -6,22 +6,22 @@ const SidebarStore = {
     {
       name: 'Dashboard',
       icon: 'ti-panel',
-      path: '/admin/overview'
+      path: '/members'
     },
     {
       name: 'Kelas Workshop',
       icon: 'ti-user',
-      path: '/admin/notifications'
+      path: '/members/notifications'
     },
     {
       name: 'Voting Komunitas',
       icon: 'ti-thumb-up',
-      path: '/admin/stats'
+      path: '/members/stats'
     },
     {
       name: 'Informasi',
       icon: 'ti-announcement',
-      path: '/admin/table-list'
+      path: '/members/table-list'
     },
     {
       name: 'Logout',

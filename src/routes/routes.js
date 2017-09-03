@@ -3,7 +3,7 @@ import DashboardLayout from '../components/Dashboard/Layout/DashboardLayout.vue'
 import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 
 // Admin pages
-import Overview from 'src/components/Dashboard/Views/Overview.vue'
+import DashboardMembers from 'src/components/Dashboard/Views/DashboardMembers.vue'
 import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
 import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
 import Icons from 'src/components/Dashboard/Views/Icons.vue'
@@ -14,17 +14,16 @@ import TableList from 'src/components/Dashboard/Views/TableList.vue'
 const routes = [
   {
     path: '/',
-    redirect: '/admin/overview'
+    redirect: '/members'
   },
   {
-    path: '/admin',
+    path: '/members',
     component: DashboardLayout,
-    redirect: '/admin/stats',
     children: [
       {
-        path: 'overview',
+        path: '',
         name: 'overview',
-        component: Overview
+        component: DashboardMembers
       },
       {
         path: 'stats',
