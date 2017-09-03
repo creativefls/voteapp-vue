@@ -14,7 +14,7 @@
             </div>
           </div>
           <div class="footer">
-            <hr />
+            <hr>
             <div class="stats">
               <div class="col-xs-12">
                 <div class="col-xs-6">
