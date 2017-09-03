@@ -11,7 +11,7 @@ const SidebarStore = {
     {
       name: 'Kelas Workshop',
       icon: 'ti-user',
-      path: '/members/notifications'
+      path: '/members/workshops/select'
     },
     {
       name: 'Voting Komunitas',

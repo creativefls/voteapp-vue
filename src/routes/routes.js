@@ -5,7 +5,7 @@ import NotFound from '../components/GeneralViews/NotFoundPage.vue'
 // Admin pages
 import DashboardMembers from 'src/components/Dashboard/Views/DashboardMembers.vue'
 import UserProfile from 'src/components/Dashboard/Views/UserProfile.vue'
-import Notifications from 'src/components/Dashboard/Views/Notifications.vue'
+import SelectWorkshops from 'src/components/Dashboard/Views/SelectWorkshops.vue'
 import Icons from 'src/components/Dashboard/Views/Icons.vue'
 import Maps from 'src/components/Dashboard/Views/Maps.vue'
 import Typography from 'src/components/Dashboard/Views/Typography.vue'
@@ -26,14 +26,14 @@ const routes = [
         component: DashboardMembers
       },
       {
+        path: 'workshops/select',
+        name: 'Pilih Kelas Workshop',
+        component: SelectWorkshops
+      },
+      {
         path: 'stats',
         name: 'stats',
         component: UserProfile
-      },
-      {
-        path: 'notifications',
-        name: 'notifications',
-        component: Notifications
       },
       {
         path: 'icons',

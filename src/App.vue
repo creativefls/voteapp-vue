@@ -4,7 +4,7 @@
     <!--This sidebar appears only for screens smaller than 992px-->
     <side-bar type="navbar" :sidebar-links="$sidebar.sidebarLinks">
       <ul class="nav navbar-nav">
-        <li>
+        <!-- <li>
           <a class="dropdown-toggle" data-toggle="dropdown">
             <i class="ti-panel"></i>
             <p>Stats</p>
@@ -24,7 +24,7 @@
             <i class="ti-settings"></i>
             <p>Settings</p>
           </a>
-        </li>
+        </li> -->
         <li class="divider"></li>
       </ul>
     </side-bar>
