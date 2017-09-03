@@ -21,7 +21,7 @@ const SidebarStore = {
     {
       name: 'Informasi',
       icon: 'ti-announcement',
-      path: '/members/table-list'
+      path: '/members/workshops/info'
     },
     {
       name: 'Logout',
